@@ -1,0 +1,14 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 4rem auto 7rem;
+    text-align: center;
+}
+
+.heading {
+    color: violet;
+}
