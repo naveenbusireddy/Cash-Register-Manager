@@ -9,16 +9,27 @@
 a {
     text-decoration: none;
 }
+
 :root {
     --primary-color: #93C5FD;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    /* max-width: 1000px; */
+    margin: auto;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .container {
-   margin: 4rem auto;
-   text-align: center;
+    margin: 4rem auto;
+    text-align: center;
 }
 
 .heading {
@@ -59,27 +70,61 @@ body {
     margin: auto;
     display: block;
 }
+
 #error-message {
     display: block;
     font-size: larger;
     margin: 1rem 0;
 }
+
 .change-table {
     width: 50%;
     text-align: justify;
     border-collapse: collapse;
     margin: auto;
-  }
-  
-  .change-table caption {
+}
+
+.change-table caption {
     margin: 1rem auto;
     font-size: large;
     font-weight: 500;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     border: 2px solid var(--primary-color);
     width: 0%;
     border-collapse: collapse;
     padding: 0.4rem;
-  }
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    /* max-width: 1000px; */
+    margin: auto;
+}
+
+.footer-about {
+    font-size: 2rem;
+}
+
+.footer-header {
+    font-size: 1.5rem;
+    padding-inline-start: 0px;
+}
